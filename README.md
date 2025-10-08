@@ -1,16 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ciescope 🎬
 
-Currently, two official plugins are available:
+**Ciescope** is a **movie review app** built with React that lets users explore popular movies and TV shows with a modern and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* 🎥 **React Carousel** – Display trending movies and TV shows in a sleek and interactive slider.
+* ⏳ **Skeleton Loading** – Placeholder screens while fetching data for a smoother user experience.
+* 🗺️ **React Router** – Seamless navigation between movie details, reviews, and categories.
+* 🔗 **TMDB API + Fetch** – Fetch real-time movie and TV show data dynamically from **The Movie Database (TMDB)**.
+* 📱 **Responsive Design** – Works well on desktop, tablet, and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+* React.js
+* React Router
+* Fetch API
+* React Carousel (`react-responsive-carousel`)
+* Skeleton Loading Components
+
+---
+
+
+## License
+
+MIT License © 2025 Varun Raj
