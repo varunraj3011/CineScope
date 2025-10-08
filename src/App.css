@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  padding: 15px 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logo:hover{
+  color: #ff4b5c;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav-links li a:hover {
+  background: #ff4b5c;
+  color: #fff;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* show hamburger */
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #1e1e2f;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding: 15px 0;
+    gap: 15px;
+    display: none; /* hidden by default */
+  }
+
+  .nav-links.open {
+    display: flex; /* show when open */
+  }
+}
